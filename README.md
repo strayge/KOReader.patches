@@ -18,7 +18,7 @@ Reuses cached thumbnails when the current view needs at most three additional pi
 
 ### `2-simpleui-library-center-vertical-swipe.lua`
 
-Adds up-to-next and down-to-previous page swipes in the middle 70% of the screen width and middle 50% of its height in SimpleUI's Library file browser, including folders opened through other tabs. Vertical paging stops at the first/last page. The top menu and configured left/right edge gestures retain their zones; horizontal paging is unchanged.
+Adds up-to-next and down-to-previous page swipes in the middle 70% of the screen width and middle 50% of its height in SimpleUI's Library file browser and History page, including folders opened through other tabs. Vertical paging stops at the first/last page. This patch does not intercept swipes in the top-menu or configured left/right edge zones; horizontal paging is unchanged.
 
 ### `2-simpleui-quick-action-nerd-icon-scaling.lua`
 
