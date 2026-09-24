@@ -4,6 +4,14 @@ Custom user patches for SimpleUI. Copy the desired `.lua` files into KOReader's 
 
 ## Patches
 
+### `2-coverbrowser-index-count-plural.lua`
+
+Prevents CoverBrowser's non-refresh directory scan from aborting when the display language needs a book count to choose a plural form.
+
+### `2-coverbrowser-skip-directory-extraction.lua`
+
+Prevents SimpleUI folder and virtual-group paths from reaching CoverBrowser's background book extractor. Folder thumbnails can still update while book extraction is running on the page.
+
 ### `2-simpleui-quick-action-nerd-icon-scaling.lua`
 
 Prevents Nerd Font icons in Quick Actions from being enlarged by device scaling twice.
